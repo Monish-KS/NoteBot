@@ -1,4 +1,4 @@
-# What inside? <br/> <sub> https://28-jotion-clone.vercel.app/ </sub>
+# Jotion - A Notion Clone <br/> <sub> https://28-jotion-clone.vercel.app/ </sub>
 
 ![work in progress](https://i.imgur.com/cW9GVNg.png)
 
@@ -6,45 +6,67 @@
 <br/>
 <br/>
 
-# Clone repository
+## Project Description
 
-## Step 1.1 - clone repository (variant 1)
+Jotion is a web application designed to replicate the core functionalities of Notion, providing a versatile workspace for notes, documents, and collaboration.
 
-![alt text](https://i.imgur.com/9KSgjaN.png)
+## New Features
 
-## or Step 1.1 - clone repository (variant 2)
+*(Add details about recent updates or new functionalities here)*
 
+<br/>
+<br/>
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+
+### Step 1: Clone the Repository
+
+```bash
+# Choose one of the following methods:
+# HTTPS
+git clone <repository_https_url>
+# SSH
+git clone <repository_ssh_url>
+
+cd 28_notion-clone
 ```
-git clone https://github.com/nicitaacom/28_notion-clone
-```
 
-## Step 1.2 - install deps
+### Step 2: Install Dependencies
 
-```
+```bash
 pnpm i
 ```
 
-## Step 1.3 - run project
+### Step 3: Set Up Environment Variables
 
+Create a `.env.local` file in the root directory by copying the example file:
+
+```bash
+cp .env.example .env.local
 ```
+
+Update the `.env.local` file with your credentials for the following services:
+
+-   **Convex:** Follow the setup guide (refer to timestamp: [https://youtu.be/0OaDyjB9Ib8?t=4679](https://youtu.be/0OaDyjB9Ib8?t=4679))
+-   **Clerk:** Follow the setup guide (refer to timestamp: [https://youtu.be/0OaDyjB9Ib8?t=4916](https://youtu.be/0OaDyjB9Ib8?t=4916))
+-   **Edge Store:** Follow the setup guide (refer to timestamp: [https://youtu.be/0OaDyjB9Ib8?t=22786](https://youtu.be/0OaDyjB9Ib8?t=22786))
+
+### Step 4: Run the Development Servers
+
+Open two separate terminals:
+
+**Terminal 1:**
+
+```bash
 pnpm dev
 ```
 
-In new terminal
+**Terminal 2:**
 
-```
+```bash
 pnpx convex dev
 ```
 
-<br/>
-<br/>
-<br/>
-
-## Step 2 - setup .env
-
-### 2.1 - convex - https://youtu.be/0OaDyjB9Ib8?t=4679
-
-### 2.2 - clerk - https://youtu.be/0OaDyjB9Ib8?t=4916
-
-### 2.3 - edge store - https://youtu.be/0OaDyjB9Ib8?t=22786
-
+Your application should now be running locally.
