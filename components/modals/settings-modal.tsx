@@ -21,7 +21,7 @@ return (
               Apperance
             </Label>
             <span className="text-[0.8rem] text-muted-foreground">
-              Customize how Jotion looks on your device
+              Customize how Notebot looks on your device
             </span>
           </div>
           <ModeToggle/>

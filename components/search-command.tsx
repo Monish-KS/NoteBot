@@ -55,7 +55,7 @@ export function SearchCommand () {
   return (
     <CommandDialog open={isOpen} onOpenChange={onClose}>
       <CommandInput
-        placeholder={`Ask or search ${user?.fullName}'s Jotion...`}
+        placeholder={`Ask or search ${user?.fullName}'s Notebot...`}
         value={query}
         onValueChange={setQuery} // Update query state on input change
         onKeyDown={async (e) => {

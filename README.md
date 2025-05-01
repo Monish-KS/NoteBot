@@ -1,4 +1,4 @@
-# Jotion - A Notion Clone <br/> <sub> https://28-jotion-clone.vercel.app/ </sub>
+# Notebot - A Notebot Clone <br/> <sub> https://28-notebot-clone.vercel.app/ </sub>
 
 ![work in progress](https://i.imgur.com/cW9GVNg.png)
 
@@ -8,7 +8,7 @@
 
 ## Project Description
 
-Jotion is a web application designed to replicate the core functionalities of Notion, providing a versatile workspace for notes, documents, and collaboration.
+Notebot is a web application designed to replicate the core functionalities of Notion, providing a versatile workspace for notes, documents, and collaboration.
 
 ## New Features
 
