@@ -30,7 +30,7 @@
     "convex": "^1.23.0",
     "emoji-picker-react": "^4.5.2",
     "lucide-react": "^0.284.0",
-    "next": "14.0.1",
+    "next": "14.2.25",
     "next-themes": "^0.2.1",
     "prosemirror-view": "^1.38.1",
     "react": "^18",
